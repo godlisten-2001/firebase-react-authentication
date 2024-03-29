@@ -1,4 +1,4 @@
-import {FIREBASE_AUTH} from '../services/firebaseConfig'
+import {FIREBASE_AUTH} from './firebaseConfig'
 import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth'
 
 const auth = FIREBASE_AUTH;
